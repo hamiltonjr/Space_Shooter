@@ -14,8 +14,8 @@ body {
     background-image: url('./img/space.png');
     background-color: black;
     margin-top: 150px;
-    height: 600px;
-    width: 600px;
+    height: 650px;
+    width: 650px;
 }
 
 .player-shooter {
@@ -24,4 +24,28 @@ body {
     width: 70px;
     left: 30px;
     top: 250px;
+}
+
+.laser {
+    position: relative;
+    height: 30px;
+    width: 40px;
+}
+
+.alien {
+    position: relative;
+    height: 60px;
+    width: 70px;
+}
+
+.alien-transition {
+    transition: opacity 1.5s ease-in-out;
+    opacity: 1;
+}
+
+.dead-alien {
+    position: relative;
+    height: 60px;
+    width: 70px;
+    opacity: 0;
 }
